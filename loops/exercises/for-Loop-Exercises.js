@@ -28,7 +28,7 @@ let array1 = [1, 5, 'LC101', 'blue', 42];
 //Construct ``for`` loops to accomplish the following tasks:
   //a. Print each element of the array to a new line.
   //b. Print each character of the string - in reverse order - to a new line. */ 
-  for (let i = 0; i < array1.length; i++){
+  for (let i = 0; i < array1.length-1; i-1){
     //console.log(array1[i]);
   }
 
@@ -38,16 +38,16 @@ let array1 = [1, 5, 'LC101', 'blue', 42];
 /*Exercise #3:Construct a for loop that sorts the array [2, 3, 13, 18, -5, 38, -10, 11, 0, 104] into two new arrays:
   a. One array contains the even numbers, and the other holds the odds.
   b. Print the arrays to confirm the results. */
- let sort = [2, 3, 13, 18, -5, 38, -10, 11, 0, 104];
- let evens = [], odds = [];
- for (let i = 0; i < sort.length; i++){
-  if (sort[i]% 2 === 0){
-    evens.push(sort[i]); 
-    console.log(evens);
-  } else {
-    odds.push(sort[i]);
-    console.log(odds);
-  }
- }
+ //let sort = [2, 3, 13, 18, -5, 38, -10, 11, 0, 104];
+ //let evens = [], odds = [];
+ //for (let i = 0; i < sort.length; i++){
+ // if (sort[i]% 2 === 0){
+  //  evens.push(sort[i]); 
+  //  console.log(evens);
+ // } else {
+  //  odds.push(sort[i]);
+  //  console.log(odds);
+ // }
+ //}
 
  
