@@ -44,5 +44,5 @@ let SecretShuttle = new Manual("Top Secret Shuttle Building Manual", "Redacted",
 // Code exercises 4 & 5 here:
 
 
-console.log(pridePrej.checkOutNum(5));
-console.log(pridePrej.discard());
+console.log(novel.SecretShuttle.checkOutNum(120));
+console.log(SecretShuttle.novel.discard());

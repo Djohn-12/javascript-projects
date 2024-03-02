@@ -3,16 +3,36 @@
 // Part One: Reverse Characters
 
 // 1. Define the function as reverseCharacters. Give it one parameter, which will be the string to reverse.
+
 // 2. Within the function, split the string into an array, then reverse the array.
 // 3. Use join to create the reversed string and return that string from the function.
 // 4. Below the function, define and initialize a variable to hold a string.
 // 5. Use console.log(reverseCharacters(myVariableName)); to call the function and verify that it correctly reverses the characters in the string.
 // 6. Optional: Use method chaining to reduce the lines of code within the function.
+function reverseCharacters(string){
+        return string.split('').reverse().join('');
+}
+reverseString = "42";
+console.log(reverseCharacters(reverseString));
 
 // Part Two: Reverse Digits
 
 // 1. Add an if statement to reverseCharacters to check the typeof the parameter.
-// 2. If typeof is ‘string’, return the reversed string as before.
+function reverseDigits(reverseString2){
+if (typeof(reverseString2) == "number"){
+    return "Number";
+} else (typeof(reverseString2) == "string");{
+    return "String";
+}}   
+console.log(reverseDigits(34));
+let results = reverseDigits(34); 
+// 2. If typeof is ‘string’, return the reversed string as before.\
+if (results === "string"){
+    return reverseCharacters(reverseString2);
+}else (results === "number"){
+    return results. ////
+} 
+console.log()
 // 3. If typeof is ’number’, convert the parameter to a string, reverse the characters, then convert it back into a number.
 // 4. Return the reversed number.
 // 5. Be sure to print the result returned by the function to verify that your code works for both strings and numbers. Do this before moving on to the next exercise.

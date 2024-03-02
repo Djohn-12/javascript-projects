@@ -29,3 +29,13 @@ let square = "";
     return stairs.slice(0, -1);
   }
   console.log(makeDownwardStairs(5));
+
+  
+  function makeDiamond(height) {
+    let diamond = makeIsoscelesTriangle(height);
+  }
+  let equals = "truck";
+  function reverse(s){
+    return s.split('').reverse().join('');
+  }
+  console.log(reverse(equals));

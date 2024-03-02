@@ -12,9 +12,10 @@ let desserts = ['apple', 'banana', 'more kale', 'ice cream', 'chocolate', 'kiwi'
 function mealAssembly(protein, grains, veggies, beverages, desserts, numMeals) {
   let pantry = [protein, grains, veggies, beverages, desserts];
   let meals = [];
+  
   for (let i = 0; i < pantry.length; i++) {
     let singleMeal = [];
-     singleMeal.push(pantry[i]);
+     singleMeal.push(pantry[i][]);
   
   }
   return meals;

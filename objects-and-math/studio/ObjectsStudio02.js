@@ -1,8 +1,8 @@
 // Code your orbitCircumference function here:
-
+function orbitCircumference()
 
 // Code your missionDuration function here:
-
+function missionDuration()
 
 // Copy/paste your selectRandomEntry function here:
 
